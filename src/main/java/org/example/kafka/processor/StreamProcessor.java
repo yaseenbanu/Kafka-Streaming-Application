@@ -3,28 +3,18 @@ package org.example.kafka.processor;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KeyValue;
 import org.apache.kafka.streams.kstream.KStream;
+import org.example.kafka.config.KafkaConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-
-@Component
 public class StreamProcessor {
-    private static final Logger logger = LoggerFactory.getLogger(StreamProcessor.class);
 
+    private static final Logger logger = LoggerFactory.getLogger(StreamProcessor.class);
     private static final Serdes.StringSerde valueSerde = new Serdes.StringSerde();
     private static final ObjectMapper objectMapper = new ObjectMapper();
-
-    @Value("${kafka.streams.input-topic}")
-    private String inputTopic;
-
-    @Value("${kafka.streams.dead-letter-topic}")
-    private String deadLetterTopic;
-
-    @Value("${kafka.streams.output-topic}")
-    private String outputTopic;
 
     // Deserialization method for raw streams with byte[] keys and values
     public static KStream<Void, String> deserialize(KStream<byte[], byte[]> rawStream) {

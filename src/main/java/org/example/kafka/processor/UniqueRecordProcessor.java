@@ -13,11 +13,17 @@ public class UniqueRecordProcessor implements Transformer<Void, String, KeyValue
     private static final Logger logger = LoggerFactory.getLogger(UniqueRecordProcessor.class);
     private KeyValueStore<String, String> stateStore;
     private final ObjectMapper objectMapper = new ObjectMapper();
+    private final String stateStoreName;
+
+    // Constructor to initialize stateStoreName
+    public UniqueRecordProcessor(String stateStoreName) {
+        this.stateStoreName = stateStoreName;
+    }
 
     @Override
     public void init(ProcessorContext context) {
-        stateStore = (KeyValueStore<String, String>) context.getStateStore("state-store");
-        logger.info("State store initialized.");
+        stateStore = (KeyValueStore<String, String>) context.getStateStore(stateStoreName);
+        logger.info("State store {} initialized.", stateStoreName);
     }
 
     @Override
@@ -29,11 +35,11 @@ public class UniqueRecordProcessor implements Transformer<Void, String, KeyValue
             String storedValue = stateStore.get(eventId);
 
             if (storedValue != null) {
-                logger.info("Event ID already exists in the state store. Value: {}", storedValue);
+                logger.info("Event ID {} already exists in the state store. Value: {}", eventId, storedValue);
                 return null;
             } else {
                 stateStore.put(eventId, value);
-                logger.info("Event ID added to the state store. Value: {}", value);
+                logger.info("Event ID {} added to the state store. Value: {}", eventId, value);
                 return new KeyValue<>(null, value);
             }
         } catch (Exception e) {
