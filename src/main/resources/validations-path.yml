@@ -1,4 +1,5 @@
-your_topic_name:
+input-topic-account-create:
   columns_validations:
     event_id:
-      - unique
+      - required
+      - non-nullable

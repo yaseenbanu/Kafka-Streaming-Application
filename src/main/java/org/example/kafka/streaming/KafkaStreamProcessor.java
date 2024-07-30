@@ -13,6 +13,7 @@ public class KafkaStreamProcessor {
     private static final Logger logger = LoggerFactory.getLogger(KafkaStreamProcessor.class);
 
     public static void main(String[] args) {
+
         // Load Kafka Streams configuration from KafkaConfig
         Properties props = KafkaConfig.getStreamsConfig();
 

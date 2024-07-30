@@ -16,7 +16,7 @@ public class StreamProcessor {
     private static final Serdes.StringSerde valueSerde = new Serdes.StringSerde();
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
-    // Deserialization method for raw streams with byte[] keys and values
+    // Method to Deserialize the Raw Stream
     public static KStream<Void, String> deserialize(KStream<byte[], byte[]> rawStream) {
         return rawStream.map(
                 (key, value) -> {
