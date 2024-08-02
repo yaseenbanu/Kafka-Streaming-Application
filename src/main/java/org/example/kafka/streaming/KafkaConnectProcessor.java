@@ -11,7 +11,6 @@ import java.util.Properties;
 
 public class KafkaConnectProcessor {
     public static void main(String[] args) {
-        // Define Kafka Streams configuration
         Properties props = new Properties();
         props.put(StreamsConfig.APPLICATION_ID_CONFIG, "simpleStreamsApp");
         props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
@@ -20,20 +19,15 @@ public class KafkaConnectProcessor {
         props.put(StreamsConfig.APPLICATION_SERVER_CONFIG, "localhost:8080");
         props.put(StreamsConfig.STATE_DIR_CONFIG, ".");
 
-        // Build the streaming topology
         StreamsBuilder builder = new StreamsBuilder();
 
-        // Read from the input topic
         KStream<byte[], byte[]> inputStream = builder.stream("input-topic-test");
 
-        // Write raw data to the raw output topic
         inputStream.to("raw-output-topic-test", Produced.with(Serdes.ByteArray(), Serdes.ByteArray()));
 
-        // Create and start the Kafka Streams instance
         KafkaStreams streams = new KafkaStreams(builder.build(), props);
         streams.start();
 
-        // Add a shutdown hook to close the streams application gracefully
         Runtime.getRuntime().addShutdownHook(new Thread(streams::close));
     }
 }

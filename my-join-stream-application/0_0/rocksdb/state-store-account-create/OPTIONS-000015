@@ -57,11 +57,7 @@
   manifest_preallocation_size=4194304
   write_thread_slow_yield_usec=3
   db_log_dir=
-<<<<<<<< Updated upstream:my-join-stream-application/1_0/rocksdb/state-store-account-update/OPTIONS-000005
-  wal_dir=C\:\\Users\\Hi\\Documents\\SPARK-LISTENERS\\Kafka-Streaming-Normalization\\.\\my-join-stream-application\\1_0\\rocksdb\\state-store-account-update
-========
   wal_dir=C\:\\Users\\yasshaik1\\Documents\\Kafka-Streaming-Normalization\\.\\simpleStreamsApp\\0_0\\rocksdb\\state-store-account-create
->>>>>>>> Stashed changes:my-join-stream-application/0_0/rocksdb/state-store-account-create/OPTIONS-000012
   max_subcompactions=1
   WAL_size_limit_MB=0
   max_total_wal_size=0

@@ -20,7 +20,6 @@ public class KafkaConfig {
             if (input == null) {
                 throw new RuntimeException("Unable to find application.properties");
             }
-            // Load the properties file
             properties.load(input);
         } catch (Exception ex) {
             logger.error("Error loading properties file", ex);

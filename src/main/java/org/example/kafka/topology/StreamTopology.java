@@ -18,6 +18,7 @@ public class StreamTopology {
     private static final Logger logger = LoggerFactory.getLogger(StreamTopology.class);
 
     public static void buildTopology(StreamsBuilder builder) {
+<<<<<<< Updated upstream
         // Configure state stores for account create and update
         String createStateStoreName = KafkaConfig.getAccountCreateStateStoreName();
         StoreBuilder<KeyValueStore<String, String>> createStoreBuilder = KafkaConfig.getStateStoreBuilder(createStateStoreName);
@@ -32,6 +33,13 @@ public class StreamTopology {
 
         // Account Update Topic Configuration
         configureAccountUpdateTopic(builder, updateStateStoreName);
+=======
+        String stateStoreName = KafkaConfig.getAccountCreateStateStoreName();
+        StoreBuilder<KeyValueStore<String, String>> storeBuilder = KafkaConfig.getStateStoreBuilder(stateStoreName);
+        builder.addStateStore(storeBuilder);
+
+        configureAccountCreateTopic(builder, stateStoreName);
+>>>>>>> Stashed changes
     }
 
     private static void configureAccountCreateTopic(StreamsBuilder builder, String stateStoreName) {

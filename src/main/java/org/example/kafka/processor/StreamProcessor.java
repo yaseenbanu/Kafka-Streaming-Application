@@ -16,7 +16,10 @@ public class StreamProcessor {
     private static final Serdes.StringSerde valueSerde = new Serdes.StringSerde();
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
+<<<<<<< Updated upstream
     // Method to Deserialize the Raw Stream
+=======
+>>>>>>> Stashed changes
     public static KStream<Void, String> deserialize(KStream<byte[], byte[]> rawStream) {
         return rawStream.map(
                 (key, value) -> {
@@ -31,7 +34,6 @@ public class StreamProcessor {
         ).filter((key, value) -> value != null);
     }
 
-    // Processing method for invalid streams, sending to dead-letter topic
     public static KStream<byte[], byte[]> processInvalidStream(KStream<Void, String> invalidStream) {
         return invalidStream.map(
                 (key, value) -> {
@@ -48,7 +50,6 @@ public class StreamProcessor {
         ).filter((key, value) -> value != null);
     }
 
-    // Processing method for valid streams, sending to output topic
     public static KStream<byte[], byte[]> processUniqueStream(KStream<Void, String> uniqueStream) {
         return uniqueStream.map(
                 (key, value) -> {
