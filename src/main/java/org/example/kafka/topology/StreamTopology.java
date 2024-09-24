@@ -18,28 +18,18 @@ public class StreamTopology {
     private static final Logger logger = LoggerFactory.getLogger(StreamTopology.class);
 
     public static void buildTopology(StreamsBuilder builder) {
-<<<<<<< Updated upstream
-        // Configure state stores for account create and update
-        String createStateStoreName = KafkaConfig.getAccountCreateStateStoreName();
-        StoreBuilder<KeyValueStore<String, String>> createStoreBuilder = KafkaConfig.getStateStoreBuilder(createStateStoreName);
-        builder.addStateStore(createStoreBuilder);
-
         String updateStateStoreName = KafkaConfig.getAccountUpdateStateStoreName();
         StoreBuilder<KeyValueStore<String, String>> updateStoreBuilder = KafkaConfig.getStateStoreBuilder(updateStateStoreName);
         builder.addStateStore(updateStoreBuilder);
 
-        // Account Create Topic Configuration
-        configureAccountCreateTopic(builder, createStateStoreName);
-
         // Account Update Topic Configuration
         configureAccountUpdateTopic(builder, updateStateStoreName);
-=======
+
         String stateStoreName = KafkaConfig.getAccountCreateStateStoreName();
         StoreBuilder<KeyValueStore<String, String>> storeBuilder = KafkaConfig.getStateStoreBuilder(stateStoreName);
         builder.addStateStore(storeBuilder);
 
         configureAccountCreateTopic(builder, stateStoreName);
->>>>>>> Stashed changes
     }
 
     private static void configureAccountCreateTopic(StreamsBuilder builder, String stateStoreName) {
@@ -56,7 +46,7 @@ public class StreamTopology {
 
         KafkaMessageValidator validator;
         try {
-            validator = new KafkaMessageValidator("localhost:9092", groupId, schemaPath, validationsPath);
+            validator = new KafkaMessageValidator("localhost:19092", groupId, schemaPath, validationsPath);
         } catch (Exception e) {
             logger.error("Failed to initialize KafkaMessageValidator", e);
             throw new RuntimeException(e);
@@ -99,7 +89,7 @@ public class StreamTopology {
 
         KafkaMessageValidator validator;
         try {
-            validator = new KafkaMessageValidator("localhost:9092", groupId, schemaPath, validationsPath);
+            validator = new KafkaMessageValidator("localhost:19092", groupId, schemaPath, validationsPath);
         } catch (Exception e) {
             logger.error("Failed to initialize KafkaMessageValidator", e);
             throw new RuntimeException(e);

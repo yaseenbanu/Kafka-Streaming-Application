@@ -16,13 +16,10 @@ public class KafkaStreamProcessor {
 
     public static void main(String[] args) {
 
-<<<<<<< Updated upstream
         // Load Kafka Streams configuration from KafkaConfig
-=======
->>>>>>> Stashed changes
         Properties props = KafkaConfig.getStreamsConfig();
-        props.put(StreamsConfig.APPLICATION_ID_CONFIG, "my-join-stream-application"); // Ensure a unique application ID
-        props.put(StreamsConfig.CLIENT_ID_CONFIG, "my-stream-client"); // Optional: Set client ID for monitoring
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, "KafkaStreamProcessor"); // Ensure a unique application ID
+        props.put(StreamsConfig.CLIENT_ID_CONFIG, "KafkaStreamProcessorClient"); // Optional: Set client ID for monitoring
 
         StreamsBuilder builder = new StreamsBuilder();
         StreamTopology.buildTopology(builder);

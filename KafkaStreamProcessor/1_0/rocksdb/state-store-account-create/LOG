@@ -1,0 +1,184 @@
+2024/09/24-23:55:06.893479 3d28 RocksDB version: 5.18.4
+2024/09/24-23:55:06.901141 3d28 Git sha rocksdb_build_git_sha:@b9a4a10659969c71e6f6eab4e4bae8c36ede919f@
+2024/09/24-23:55:06.901524 3d28 Compile date Mar 11 2020
+2024/09/24-23:55:06.902534 3d28 DB SUMMARY
+2024/09/24-23:55:06.906676 3d28 SST files in I:\My Drive\pro\projects\Kafka-Streaming-Normalization\.\KafkaStreamProcessor\1_0\rocksdb\state-store-account-create dir, Total Num: 0, files: 
+2024/09/24-23:55:06.906863 3d28 Write Ahead Log file in I:\My Drive\pro\projects\Kafka-Streaming-Normalization\.\KafkaStreamProcessor\1_0\rocksdb\state-store-account-create: 
+2024/09/24-23:55:06.907050 3d28                         Options.error_if_exists: 0
+2024/09/24-23:55:06.907226 3d28                       Options.create_if_missing: 1
+2024/09/24-23:55:06.907380 3d28                         Options.paranoid_checks: 1
+2024/09/24-23:55:06.907533 3d28                                     Options.env: 0000016C6C5449C0
+2024/09/24-23:55:06.907710 3d28                                Options.info_log: 0000016C6C171640
+2024/09/24-23:55:06.907866 3d28                Options.max_file_opening_threads: 16
+2024/09/24-23:55:06.908021 3d28                              Options.statistics: 0000000000000000
+2024/09/24-23:55:06.908177 3d28                               Options.use_fsync: 0
+2024/09/24-23:55:06.908336 3d28                       Options.max_log_file_size: 0
+2024/09/24-23:55:06.908548 3d28                  Options.max_manifest_file_size: 1073741824
+2024/09/24-23:55:06.908731 3d28                   Options.log_file_time_to_roll: 0
+2024/09/24-23:55:06.908885 3d28                       Options.keep_log_file_num: 1000
+2024/09/24-23:55:06.909050 3d28                    Options.recycle_log_file_num: 0
+2024/09/24-23:55:06.909253 3d28                         Options.allow_fallocate: 1
+2024/09/24-23:55:06.909409 3d28                        Options.allow_mmap_reads: 0
+2024/09/24-23:55:06.909650 3d28                       Options.allow_mmap_writes: 0
+2024/09/24-23:55:06.909821 3d28                        Options.use_direct_reads: 0
+2024/09/24-23:55:06.909986 3d28                        Options.use_direct_io_for_flush_and_compaction: 0
+2024/09/24-23:55:06.910163 3d28          Options.create_missing_column_families: 0
+2024/09/24-23:55:06.910318 3d28                              Options.db_log_dir: 
+2024/09/24-23:55:06.910469 3d28                                 Options.wal_dir: I:\My Drive\pro\projects\Kafka-Streaming-Normalization\.\KafkaStreamProcessor\1_0\rocksdb\state-store-account-create
+2024/09/24-23:55:06.910638 3d28                Options.table_cache_numshardbits: 6
+2024/09/24-23:55:06.910871 3d28                      Options.max_subcompactions: 1
+2024/09/24-23:55:06.911019 3d28                  Options.max_background_flushes: -1
+2024/09/24-23:55:06.911261 3d28                         Options.WAL_ttl_seconds: 0
+2024/09/24-23:55:06.911435 3d28                       Options.WAL_size_limit_MB: 0
+2024/09/24-23:55:06.911612 3d28             Options.manifest_preallocation_size: 4194304
+2024/09/24-23:55:06.911803 3d28                     Options.is_fd_close_on_exec: 1
+2024/09/24-23:55:06.912007 3d28                   Options.advise_random_on_open: 1
+2024/09/24-23:55:06.912168 3d28                    Options.db_write_buffer_size: 0
+2024/09/24-23:55:06.912331 3d28                    Options.write_buffer_manager: 0000016C6C16C660
+2024/09/24-23:55:06.912494 3d28         Options.access_hint_on_compaction_start: 1
+2024/09/24-23:55:06.912656 3d28  Options.new_table_reader_for_compaction_inputs: 0
+2024/09/24-23:55:06.912813 3d28           Options.random_access_max_buffer_size: 1048576
+2024/09/24-23:55:06.913033 3d28                      Options.use_adaptive_mutex: 0
+2024/09/24-23:55:06.915157 3d28                            Options.rate_limiter: 0000000000000000
+2024/09/24-23:55:06.915553 3d28     Options.sst_file_manager.rate_bytes_per_sec: 0
+2024/09/24-23:55:06.915974 3d28                       Options.wal_recovery_mode: 2
+2024/09/24-23:55:06.916166 3d28                  Options.enable_thread_tracking: 0
+2024/09/24-23:55:06.916356 3d28                  Options.enable_pipelined_write: 0
+2024/09/24-23:55:06.916531 3d28         Options.allow_concurrent_memtable_write: 1
+2024/09/24-23:55:06.916722 3d28      Options.enable_write_thread_adaptive_yield: 1
+2024/09/24-23:55:06.916886 3d28             Options.write_thread_max_yield_usec: 100
+2024/09/24-23:55:06.917054 3d28            Options.write_thread_slow_yield_usec: 3
+2024/09/24-23:55:06.917221 3d28                               Options.row_cache: None
+2024/09/24-23:55:06.917377 3d28                              Options.wal_filter: None
+2024/09/24-23:55:06.917531 3d28             Options.avoid_flush_during_recovery: 0
+2024/09/24-23:55:06.917708 3d28             Options.allow_ingest_behind: 0
+2024/09/24-23:55:06.917912 3d28             Options.preserve_deletes: 0
+2024/09/24-23:55:06.918163 3d28             Options.two_write_queues: 0
+2024/09/24-23:55:06.918418 3d28             Options.manual_wal_flush: 0
+2024/09/24-23:55:06.918645 3d28             Options.max_background_jobs: 4
+2024/09/24-23:55:06.918884 3d28             Options.max_background_compactions: -1
+2024/09/24-23:55:06.919159 3d28             Options.avoid_flush_during_shutdown: 0
+2024/09/24-23:55:06.919352 3d28           Options.writable_file_max_buffer_size: 1048576
+2024/09/24-23:55:06.919541 3d28             Options.delayed_write_rate : 16777216
+2024/09/24-23:55:06.919737 3d28             Options.max_total_wal_size: 0
+2024/09/24-23:55:06.919924 3d28             Options.delete_obsolete_files_period_micros: 21600000000
+2024/09/24-23:55:06.920114 3d28                   Options.stats_dump_period_sec: 600
+2024/09/24-23:55:06.920343 3d28                          Options.max_open_files: -1
+2024/09/24-23:55:06.920530 3d28                          Options.bytes_per_sync: 0
+2024/09/24-23:55:06.920725 3d28                      Options.wal_bytes_per_sync: 0
+2024/09/24-23:55:06.920911 3d28       Options.compaction_readahead_size: 0
+2024/09/24-23:55:06.921096 3d28 Compression algorithms supported:
+2024/09/24-23:55:06.921294 3d28 	kZSTD supported: 1
+2024/09/24-23:55:06.921513 3d28 	kSnappyCompression supported: 1
+2024/09/24-23:55:06.921701 3d28 	kBZip2Compression supported: 0
+2024/09/24-23:55:06.921882 3d28 	kZlibCompression supported: 1
+2024/09/24-23:55:06.922061 3d28 	kLZ4Compression supported: 1
+2024/09/24-23:55:06.922238 3d28 	kXpressCompression supported: 0
+2024/09/24-23:55:06.922418 3d28 	kLZ4HCCompression supported: 1
+2024/09/24-23:55:06.922654 3d28 	kZSTDNotFinalCompression supported: 1
+2024/09/24-23:55:06.922894 3d28 Fast CRC32 supported: Supported on x86
+2024/09/24-23:55:07.055068 3d28               Options.comparator: leveldb.BytewiseComparator
+2024/09/24-23:55:07.055518 3d28           Options.merge_operator: None
+2024/09/24-23:55:07.055840 3d28        Options.compaction_filter: None
+2024/09/24-23:55:07.056234 3d28        Options.compaction_filter_factory: None
+2024/09/24-23:55:07.056554 3d28         Options.memtable_factory: SkipListFactory
+2024/09/24-23:55:07.056838 3d28            Options.table_factory: BlockBasedTable
+2024/09/24-23:55:07.057495 3d28            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000016C08E1B480)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000016C6D096820
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 52428800
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+  block_align: 0
+2024/09/24-23:55:07.057793 3d28        Options.write_buffer_size: 16777216
+2024/09/24-23:55:07.058069 3d28  Options.max_write_buffer_number: 3
+2024/09/24-23:55:07.058335 3d28          Options.compression: NoCompression
+2024/09/24-23:55:07.058587 3d28                  Options.bottommost_compression: Disabled
+2024/09/24-23:55:07.058950 3d28       Options.prefix_extractor: nullptr
+2024/09/24-23:55:07.059201 3d28   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2024/09/24-23:55:07.059461 3d28             Options.num_levels: 7
+2024/09/24-23:55:07.060637 3d28        Options.min_write_buffer_number_to_merge: 1
+2024/09/24-23:55:07.061227 3d28     Options.max_write_buffer_number_to_maintain: 0
+2024/09/24-23:55:07.067921 3d28            Options.bottommost_compression_opts.window_bits: -14
+2024/09/24-23:55:07.068757 3d28                  Options.bottommost_compression_opts.level: 32767
+2024/09/24-23:55:07.069157 3d28               Options.bottommost_compression_opts.strategy: 0
+2024/09/24-23:55:07.069490 3d28         Options.bottommost_compression_opts.max_dict_bytes: 0
+2024/09/24-23:55:07.069818 3d28         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2024/09/24-23:55:07.070276 3d28                  Options.bottommost_compression_opts.enabled: false
+2024/09/24-23:55:07.070625 3d28            Options.compression_opts.window_bits: -14
+2024/09/24-23:55:07.072546 3d28                  Options.compression_opts.level: 32767
+2024/09/24-23:55:07.073114 3d28               Options.compression_opts.strategy: 0
+2024/09/24-23:55:07.074425 3d28         Options.compression_opts.max_dict_bytes: 0
+2024/09/24-23:55:07.075004 3d28         Options.compression_opts.zstd_max_train_bytes: 0
+2024/09/24-23:55:07.075410 3d28                  Options.compression_opts.enabled: false
+2024/09/24-23:55:07.075692 3d28      Options.level0_file_num_compaction_trigger: 4
+2024/09/24-23:55:07.075939 3d28          Options.level0_slowdown_writes_trigger: 20
+2024/09/24-23:55:07.076200 3d28              Options.level0_stop_writes_trigger: 36
+2024/09/24-23:55:07.076443 3d28                   Options.target_file_size_base: 67108864
+2024/09/24-23:55:07.076664 3d28             Options.target_file_size_multiplier: 1
+2024/09/24-23:55:07.076923 3d28                Options.max_bytes_for_level_base: 268435456
+2024/09/24-23:55:07.077169 3d28 Options.level_compaction_dynamic_level_bytes: 0
+2024/09/24-23:55:07.077408 3d28          Options.max_bytes_for_level_multiplier: 10.000000
+2024/09/24-23:55:07.077650 3d28 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2024/09/24-23:55:07.077902 3d28 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2024/09/24-23:55:07.078161 3d28 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2024/09/24-23:55:07.078401 3d28 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2024/09/24-23:55:07.078641 3d28 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2024/09/24-23:55:07.078871 3d28 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2024/09/24-23:55:07.079093 3d28 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2024/09/24-23:55:07.079333 3d28       Options.max_sequential_skip_in_iterations: 8
+2024/09/24-23:55:07.079607 3d28                    Options.max_compaction_bytes: 1677721600
+2024/09/24-23:55:07.084965 3d28                        Options.arena_block_size: 2097152
+2024/09/24-23:55:07.085307 3d28   Options.soft_pending_compaction_bytes_limit: 68719476736
+2024/09/24-23:55:07.085598 3d28   Options.hard_pending_compaction_bytes_limit: 274877906944
+2024/09/24-23:55:07.085894 3d28       Options.rate_limit_delay_max_milliseconds: 100
+2024/09/24-23:55:07.086166 3d28                Options.disable_auto_compactions: 0
+2024/09/24-23:55:07.086407 3d28                        Options.compaction_style: kCompactionStyleUniversal
+2024/09/24-23:55:07.086710 3d28                          Options.compaction_pri: kByCompensatedSize
+2024/09/24-23:55:07.086966 3d28 Options.compaction_options_universal.size_ratio: 1
+2024/09/24-23:55:07.087198 3d28 Options.compaction_options_universal.min_merge_width: 2
+2024/09/24-23:55:07.087423 3d28 Options.compaction_options_universal.max_merge_width: 4294967295
+2024/09/24-23:55:07.087747 3d28 Options.compaction_options_universal.max_size_amplification_percent: 200
+2024/09/24-23:55:07.088514 3d28 Options.compaction_options_universal.compression_size_percent: -1
+2024/09/24-23:55:07.089920 3d28 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2024/09/24-23:55:07.090215 3d28 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2024/09/24-23:55:07.090441 3d28 Options.compaction_options_fifo.allow_compaction: 0
+2024/09/24-23:55:07.090669 3d28 Options.compaction_options_fifo.ttl: 0
+2024/09/24-23:55:07.090916 3d28                   Options.table_properties_collectors: 
+2024/09/24-23:55:07.091155 3d28                   Options.inplace_update_support: 0
+2024/09/24-23:55:07.091698 3d28                 Options.inplace_update_num_locks: 10000
+2024/09/24-23:55:07.092217 3d28               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2024/09/24-23:55:07.092492 3d28   Options.memtable_huge_page_size: 0
+2024/09/24-23:55:07.092750 3d28                           Options.bloom_locality: 0
+2024/09/24-23:55:07.093269 3d28                    Options.max_successive_merges: 0
+2024/09/24-23:55:07.093592 3d28                Options.optimize_filters_for_hits: 0
+2024/09/24-23:55:07.093833 3d28                Options.paranoid_file_checks: 0
+2024/09/24-23:55:07.098738 3d28                Options.force_consistency_checks: 0
+2024/09/24-23:55:07.099124 3d28                Options.report_bg_io_stats: 0
+2024/09/24-23:55:07.099398 3d28                               Options.ttl: 0
