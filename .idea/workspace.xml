@@ -5,70 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67326ae9-3311-48d3-9505-4712b6c3f5d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/.checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/000003.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/000006.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/000013.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/000016.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/CURRENT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/IDENTITY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/LOCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/LOG.old.1722338404029518" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/LOG.old.1722341490686235" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/MANIFEST-000007" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/MANIFEST-000012" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/OPTIONS-000005" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/OPTIONS-000012" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/0_0/rocksdb/state-store-account-create/OPTIONS-000015" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/1_0/.checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/1_0/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/1_0/rocksdb/state-store-account-update/000003.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/1_0/rocksdb/state-store-account-update/000006.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/1_0/rocksdb/state-store-account-update/CURRENT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/1_0/rocksdb/state-store-account-update/IDENTITY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/1_0/rocksdb/state-store-account-update/LOCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/1_0/rocksdb/state-store-account-update/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/1_0/rocksdb/state-store-account-update/MANIFEST-000007" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/1_0/rocksdb/state-store-account-update/OPTIONS-000005" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-join-stream-application/kafka-streams-process-metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runbook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runbook.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleStreamsApp/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleStreamsApp/0_0/.checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleStreamsApp/0_0/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleStreamsApp/0_0/rocksdb/state-store-account-create/000006.sst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleStreamsApp/0_0/rocksdb/state-store-account-create/IDENTITY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleStreamsApp/0_0/rocksdb/state-store-account-create/LOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleStreamsApp/1_0/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleStreamsApp/2_0/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleStreamsApp/kafka-streams-process-metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kafka/model/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kafka/processor/StreamProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kafka/processor/StreamProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kafka/streaming/KafkaConnectProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kafka/streaming/KafkaJoinStreamingProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kafka/streaming/KafkaJoinStreamingProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kafka/streaming/KafkaStreamProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kafka/streaming/KafkaStreamProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/kafka/topology/StreamTopology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/kafka/topology/StreamTopology.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/kafka/config/KafkaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/kafka/config/KafkaConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/kafka/processor/StreamProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/kafka/processor/StreamProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/kafka/streaming/KafkaConnectProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/kafka/streaming/KafkaStreamProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/kafka/streaming/KafkaStreamProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/kafka/topology/StreamTopology.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/kafka/topology/StreamTopology.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/kafka/validator/KafkaMessageValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/kafka/validator/KafkaMessageValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/validations-path.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/validations-path.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,14 +35,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.KafkaConsumerApp.executor": "Run",
     "Application.KafkaStreamProcessor.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "I:/My Drive/pro/projects/Kafka-Streaming-Normalization"
+    "last_opened_file_path": "I:/My Drive/pro/projects/kafka-Streaming-Application"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.KafkaConsumerApp">
+    <configuration name="KafkaConsumerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consumers.KafkaConsumerApp" />
+      <module name="kafka-streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="consumers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KafkaStreamProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.kafka.streaming.KafkaStreamProcessor" />
       <module name="kafka-streams" />
@@ -109,6 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KafkaConsumerApp" />
         <item itemvalue="Application.KafkaStreamProcessor" />
       </list>
     </recent_temporary>
